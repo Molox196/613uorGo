@@ -14,22 +14,22 @@
 					<folderInfo id="org.eclipse.cdt.msvc.exe.debug.15564074." name="/" resourcePath="">
 						<toolChain id="org.eclipse.cdt.msvc.toolchain.exe.debug.1275415551" name="Microsoft Visual C++" superClass="org.eclipse.cdt.msvc.toolchain.exe.debug">
 							<targetPlatform id="org.eclipse.cdt.msvc.targetPlatform.exe.debug.85383222" superClass="org.eclipse.cdt.msvc.targetPlatform.exe.debug"/>
-							<builder buildPath="${workspace_loc:/Go_Game}/Debug" id="org.eclipse.cdt.msvc.builder.1539041817" managedBuildOn="true" name="CDT Internal Builder.Debug" superClass="org.eclipse.cdt.msvc.builder"/>
+							<builder buildPath="${workspace_loc:/Go_Game}/Debug" id="org.eclipse.cdt.msvc.builder.1539041817" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.msvc.builder"/>
 							<tool id="org.eclipse.cdt.msvc.cl.c.exe.debug.1413726556" name="C Compiler (cl)" superClass="org.eclipse.cdt.msvc.cl.c.exe.debug">
-								<option id="org.eclipse.cdt.msvc.cl.option.optimization.435956818" superClass="org.eclipse.cdt.msvc.cl.option.optimization" value="org.eclipse.cdt.msvc.cl.option.optimization.default" valueType="enumerated"/>
-								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.1113552742" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat" value="org.eclipse.cdt.msvc.cl.option.debugFormat.complete" valueType="enumerated"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.optimization.435956818" name="Optimization" superClass="org.eclipse.cdt.msvc.cl.option.optimization" value="org.eclipse.cdt.msvc.cl.option.optimization.default" valueType="enumerated"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.1113552742" name="Debug Information Format" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat" value="org.eclipse.cdt.msvc.cl.option.debugFormat.complete" valueType="enumerated"/>
 								<inputType id="org.eclipse.cdt.msvc.cl.inputType.c.658902006" superClass="org.eclipse.cdt.msvc.cl.inputType.c"/>
 							</tool>
 							<tool id="org.eclipse.cdt.msvc.cl.exe.debug.2034790384" name="C++ Compiler (cl)" superClass="org.eclipse.cdt.msvc.cl.exe.debug">
-								<option id="org.eclipse.cdt.msvc.cl.option.optimization.193934442" superClass="org.eclipse.cdt.msvc.cl.option.optimization" value="org.eclipse.cdt.msvc.cl.option.optimization.default" valueType="enumerated"/>
-								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.1032705651" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat" value="org.eclipse.cdt.msvc.cl.option.debugFormat.complete" valueType="enumerated"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.optimization.193934442" name="Optimization" superClass="org.eclipse.cdt.msvc.cl.option.optimization" value="org.eclipse.cdt.msvc.cl.option.optimization.default" valueType="enumerated"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.1032705651" name="Debug Information Format" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat" value="org.eclipse.cdt.msvc.cl.option.debugFormat.complete" valueType="enumerated"/>
 								<inputType id="org.eclipse.cdt.msvc.cl.inputType.1145136116" superClass="org.eclipse.cdt.msvc.cl.inputType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.msvc.rc.exe.debug.2067207160" name="Resource Compiler (rc)" superClass="org.eclipse.cdt.msvc.rc.exe.debug">
 								<inputType id="org.eclipse.cdt.msvc.rc.inputType.1150056682" superClass="org.eclipse.cdt.msvc.rc.inputType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.msvc.link.exe.debug.1065932682" name="Linker (link)" superClass="org.eclipse.cdt.msvc.link.exe.debug">
-								<option id="org.eclipse.cdt.msvc.link.option.debug.535264798" superClass="org.eclipse.cdt.msvc.link.option.debug" value="true" valueType="boolean"/>
+								<option id="org.eclipse.cdt.msvc.link.option.debug.535264798" name="Generate Debug Info (/debug)" superClass="org.eclipse.cdt.msvc.link.option.debug" value="true" valueType="boolean"/>
 								<inputType id="org.eclipse.cdt.msvc.link.inputType.1457978990" superClass="org.eclipse.cdt.msvc.link.inputType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.msvc.lib.1476805244" name="Library Manager (lib)" superClass="org.eclipse.cdt.msvc.lib"/>
@@ -52,22 +52,29 @@
 					<folderInfo id="org.eclipse.cdt.msvc.exe.release.1624884986." name="/" resourcePath="">
 						<toolChain id="org.eclipse.cdt.msvc.toolchain.exe.release.1682712271" name="Microsoft Visual C++" superClass="org.eclipse.cdt.msvc.toolchain.exe.release">
 							<targetPlatform id="org.eclipse.cdt.msvc.targetPlatform.exe.release.1244403629" superClass="org.eclipse.cdt.msvc.targetPlatform.exe.release"/>
-							<builder buildPath="${workspace_loc:/Go_Game}/Release" id="org.eclipse.cdt.msvc.builder.1618878443" managedBuildOn="true" name="CDT Internal Builder.Release" superClass="org.eclipse.cdt.msvc.builder"/>
+							<builder buildPath="${workspace_loc:/Go_Game}/Release" id="org.eclipse.cdt.msvc.builder.1618878443" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.msvc.builder"/>
 							<tool id="org.eclipse.cdt.msvc.cl.c.exe.release.515155410" name="C Compiler (cl)" superClass="org.eclipse.cdt.msvc.cl.c.exe.release">
-								<option id="org.eclipse.cdt.msvc.cl.option.optimization.1855773106" superClass="org.eclipse.cdt.msvc.cl.option.optimization"/>
-								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.502076886" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.optimization.1855773106" name="Optimization" superClass="org.eclipse.cdt.msvc.cl.option.optimization"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.502076886" name="Debug Information Format" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat"/>
+								<inputType id="org.eclipse.cdt.msvc.cl.inputType.c.960837913" superClass="org.eclipse.cdt.msvc.cl.inputType.c"/>
 							</tool>
 							<tool id="org.eclipse.cdt.msvc.cl.exe.release.1004426039" name="C++ Compiler (cl)" superClass="org.eclipse.cdt.msvc.cl.exe.release">
-								<option id="org.eclipse.cdt.msvc.cl.option.optimization.1568597835" superClass="org.eclipse.cdt.msvc.cl.option.optimization"/>
-								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.1477252042" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.optimization.1568597835" name="Optimization" superClass="org.eclipse.cdt.msvc.cl.option.optimization"/>
+								<option id="org.eclipse.cdt.msvc.cl.option.debugFormat.1477252042" name="Debug Information Format" superClass="org.eclipse.cdt.msvc.cl.option.debugFormat"/>
+								<inputType id="org.eclipse.cdt.msvc.cl.inputType.2094932078" superClass="org.eclipse.cdt.msvc.cl.inputType"/>
 							</tool>
-							<tool id="org.eclipse.cdt.msvc.rc.exe.release.2053159948" name="Resource Compiler (rc)" superClass="org.eclipse.cdt.msvc.rc.exe.release"/>
-							<tool id="org.eclipse.cdt.msvc.link.exe.release.996876280" name="Linker (link)" superClass="org.eclipse.cdt.msvc.link.exe.release"/>
+							<tool id="org.eclipse.cdt.msvc.rc.exe.release.2053159948" name="Resource Compiler (rc)" superClass="org.eclipse.cdt.msvc.rc.exe.release">
+								<inputType id="org.eclipse.cdt.msvc.rc.inputType.1398333641" superClass="org.eclipse.cdt.msvc.rc.inputType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.msvc.link.exe.release.996876280" name="Linker (link)" superClass="org.eclipse.cdt.msvc.link.exe.release">
+								<inputType id="org.eclipse.cdt.msvc.link.inputType.1916993276" superClass="org.eclipse.cdt.msvc.link.inputType"/>
+							</tool>
 							<tool id="org.eclipse.cdt.msvc.lib.92151289" name="Library Manager (lib)" superClass="org.eclipse.cdt.msvc.lib"/>
 						</toolChain>
 					</folderInfo>
 				</configuration>
 			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
